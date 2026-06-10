@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://b4pdfi2ov1u7m"]
+
+[ext_resource type="PackedScene" uid="uid://bji7mnstpla2s" path="res://scripts/killzone.tscn" id="1_0j8o1"]
+[ext_resource type="Texture2D" uid="uid://ctq2pa64pyaht" path="res://assets/craftpix-net-672461-free-swamp-game-tileset-pixel-art/3 Objects/Grass/2.png" id="2_3yw74"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rktng"]
+size = Vector2(9, 9)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4rfo3"]
+texture = ExtResource("2_3yw74")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 6.4749146, 8, 6.4749146, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_peh83"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_4rfo3")
+
+[node name="objetomata" type="Node2D" unique_id=1557305323]
+
+[node name="killzone" parent="." unique_id=1421296336 instance=ExtResource("1_0j8o1")]
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="killzone" unique_id=2090715536]
+position = Vector2(7.5, 11.5)
+shape = SubResource("RectangleShape2D_rktng")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1948495820]
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_peh83")
+metadata/_edit_group_ = true

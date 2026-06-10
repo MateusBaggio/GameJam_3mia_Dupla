@@ -1,0 +1,235 @@
+[gd_scene format=3 uid="uid://dxgi6ceabrniq"]
+
+[ext_resource type="Texture2D" uid="uid://bcvg1elfvj3wu" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_000.png" id="1_32jdm"]
+[ext_resource type="Script" uid="uid://b6e46ptmefwjs" path="res://scenes/boneco.gd" id="1_sga1d"]
+[ext_resource type="Texture2D" uid="uid://do4wpgmaq4xqe" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_000.png" id="2_lw68p"]
+[ext_resource type="Texture2D" uid="uid://0k87oxw0yqhi" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_001.png" id="3_51d3e"]
+[ext_resource type="Texture2D" uid="uid://bx6c6s3q20evd" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_001.png" id="3_gdsyt"]
+[ext_resource type="Texture2D" uid="uid://ba2n618p81yw6" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_002.png" id="4_fx4w5"]
+[ext_resource type="Texture2D" uid="uid://bl5p2js543m53" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_002.png" id="4_lomfn"]
+[ext_resource type="Texture2D" uid="uid://icgnr7ni0sy2" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_003.png" id="5_3edfk"]
+[ext_resource type="Texture2D" uid="uid://bwqakxelsrbtk" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_003.png" id="5_85b64"]
+[ext_resource type="Texture2D" uid="uid://c3p623a54r6kt" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_004.png" id="6_gcy3u"]
+[ext_resource type="Texture2D" uid="uid://dci724775vk07" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_004.png" id="6_vyn1v"]
+[ext_resource type="Texture2D" uid="uid://crub5o1smb28q" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_005.png" id="7_0eja5"]
+[ext_resource type="Texture2D" uid="uid://db803k1160j2l" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_005.png" id="7_u6rlv"]
+[ext_resource type="Texture2D" uid="uid://trnbm8wi716x" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_006.png" id="8_uosqv"]
+[ext_resource type="Texture2D" uid="uid://c7faxqgt1bh3p" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_006.png" id="8_xf72y"]
+[ext_resource type="Texture2D" uid="uid://crofojfxrvyys" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_007.png" id="9_a4cls"]
+[ext_resource type="Texture2D" uid="uid://ryrq7s5xpy50" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_007.png" id="9_gp0ll"]
+[ext_resource type="Texture2D" uid="uid://nmymcrawc2ib" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_008.png" id="10_fkdxl"]
+[ext_resource type="Texture2D" uid="uid://cdlkhdmjykyjy" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_008.png" id="10_xo6i2"]
+[ext_resource type="Texture2D" uid="uid://d22tc37fqi3re" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_009.png" id="11_bc4co"]
+[ext_resource type="Texture2D" uid="uid://jgk3lml76742" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_009.png" id="11_go425"]
+[ext_resource type="Texture2D" uid="uid://cq5t0uas2h2mr" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_010.png" id="12_ihtki"]
+[ext_resource type="Texture2D" uid="uid://cpg4nlp3p41ch" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_010.png" id="12_qrjvv"]
+[ext_resource type="Texture2D" uid="uid://dfl3y03ybesif" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_011.png" id="13_67vta"]
+[ext_resource type="Texture2D" uid="uid://dwe3knrndxsx2" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_011.png" id="13_ffcnt"]
+[ext_resource type="Texture2D" uid="uid://ds1yeta3jooyg" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_012.png" id="14_m8mf2"]
+[ext_resource type="Texture2D" uid="uid://crdxpvc1y488u" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_012.png" id="14_mx6pk"]
+[ext_resource type="Texture2D" uid="uid://dx2eakhmyrlkj" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_013.png" id="15_7rwgi"]
+[ext_resource type="Texture2D" uid="uid://yoea7ss07wo4" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_013.png" id="15_hljr1"]
+[ext_resource type="Texture2D" uid="uid://l2cfw2kashg5" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_014.png" id="16_afl05"]
+[ext_resource type="Texture2D" uid="uid://d2nh7fjo70oc7" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_014.png" id="16_isd1a"]
+[ext_resource type="Texture2D" uid="uid://csy6xsrcebrxq" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_015.png" id="17_awcnv"]
+[ext_resource type="Texture2D" uid="uid://d36sknut6fwjg" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_015.png" id="17_wch7k"]
+[ext_resource type="Texture2D" uid="uid://fcncssx8np02" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_016.png" id="18_e30gb"]
+[ext_resource type="Texture2D" uid="uid://o073e06n1b78" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_016.png" id="18_kvain"]
+[ext_resource type="Texture2D" uid="uid://hkm2u1mk0f54" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_017.png" id="19_rocw2"]
+[ext_resource type="Texture2D" uid="uid://dd2mxl2nshtq6" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_017.png" id="19_vxgb5"]
+[ext_resource type="Texture2D" uid="uid://o1sdkmtg3g3k" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_018.png" id="20_41fxo"]
+[ext_resource type="Texture2D" uid="uid://ryk7qpfeh21f" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Jump Loop/0_Forest_Ranger_Jump Loop_000.png" id="20_786yh"]
+[ext_resource type="Texture2D" uid="uid://bfep3al7eureb" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Jump Loop/0_Forest_Ranger_Jump Loop_001.png" id="21_f7u14"]
+[ext_resource type="Texture2D" uid="uid://bkfao7quq838p" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_019.png" id="21_le3mr"]
+[ext_resource type="Texture2D" uid="uid://cm1jyrr53i2p5" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_020.png" id="22_d5j0y"]
+[ext_resource type="Texture2D" uid="uid://c3sk8vtj2br0h" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Jump Loop/0_Forest_Ranger_Jump Loop_002.png" id="22_xj425"]
+[ext_resource type="Texture2D" uid="uid://d3veuj6to68rk" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Jump Loop/0_Forest_Ranger_Jump Loop_003.png" id="23_6gfk5"]
+[ext_resource type="Texture2D" uid="uid://b1gj3p721vcu5" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_021.png" id="23_mep44"]
+[ext_resource type="Texture2D" uid="uid://djpwb48iypq7j" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Jump Loop/0_Forest_Ranger_Jump Loop_004.png" id="24_souh2"]
+[ext_resource type="Texture2D" uid="uid://fdnyt12ap3c1" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_022.png" id="24_uchlm"]
+[ext_resource type="Texture2D" uid="uid://b3fsr0d5rlf8k" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_023.png" id="25_m4u76"]
+[ext_resource type="Texture2D" uid="uid://mxacnvu0t3w5" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Jump Loop/0_Forest_Ranger_Jump Loop_005.png" id="25_q4mhg"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_51d3e"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_32jdm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_51d3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fx4w5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_3edfk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_gcy3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_0eja5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_xf72y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_a4cls")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_fkdxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_go425")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ihtki")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ffcnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_mx6pk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_hljr1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_isd1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_wch7k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_kvain")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_rocw2")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_786yh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_f7u14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_xj425")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_6gfk5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_souh2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_q4mhg")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_lw68p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gdsyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_lomfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_85b64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vyn1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_u6rlv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_uosqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gp0ll")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_xo6i2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_bc4co")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_qrjvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_67vta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_m8mf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_7rwgi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_afl05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_awcnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_e30gb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_vxgb5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_41fxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_le3mr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_d5j0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_mep44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_uchlm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_m4u76")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 30.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_51d3e"]
+radius = 12.0
+height = 38.0
+
+[node name="boneco" type="CharacterBody2D" unique_id=65446422]
+position = Vector2(684, 20)
+script = ExtResource("1_sga1d")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=466851959]
+position = Vector2(0.62498474, 2)
+scale = Vector2(0.06138887, 0.064444445)
+sprite_frames = SubResource("SpriteFrames_51d3e")
+animation = &"idle"
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1542347525]
+position = Vector2(0.625, 3)
+shape = SubResource("CapsuleShape2D_51d3e")
+metadata/_edit_group_ = true
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=118472305]
