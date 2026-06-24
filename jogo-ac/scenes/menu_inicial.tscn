@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://cswvf7wnhm6wo"]
+
+[ext_resource type="Script" uid="uid://b512hlcvtaol7" path="res://scripts/menu_inicial.gd" id="1_1lqws"]
+[ext_resource type="Texture2D" uid="uid://dh2vscihqlawe" path="res://assets/craftpix-net-672461-free-swamp-game-tileset-pixel-art/91cc401f51287f6cde01233e7f01623f.png" id="1_40mju"]
+
+[node name="menuInicial" type="Control" unique_id=1591676886]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1lqws")
+
+[node name="GameBackground" type="TextureRect" parent="." unique_id=213922417]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_40mju")
+
+[node name="Jogar" type="Button" parent="." unique_id=1700451619]
+layout_mode = 0
+offset_left = 399.0
+offset_top = 255.0
+offset_right = 809.0
+offset_bottom = 414.0
+text = "Jogar
+"
+script = ExtResource("1_1lqws")
+
+[connection signal="pressed" from="Jogar" to="." method="_on_jogar_pressed"]

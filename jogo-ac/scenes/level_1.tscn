@@ -1289,3 +1289,6 @@ position = Vector2(1575, 171)
 
 [node name="boneco" parent="." unique_id=65446422 instance=ExtResource("1_014kd")]
 position = Vector2(49, 43)
+
+[node name="Coin2" parent="." unique_id=2008544561 instance=ExtResource("13_7gny6")]
+position = Vector2(1361, 531)

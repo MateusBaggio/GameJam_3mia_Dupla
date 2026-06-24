@@ -6,7 +6,7 @@ const JUMP_VELOCITY = -400.0
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 var invincible = false
 
-func activate_ivencibility(duration):
+func activate_invencibility(duration):
 	print("INVENCIBILIDADE")
 	invincible = true
 	
