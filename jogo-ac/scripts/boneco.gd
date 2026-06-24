@@ -4,6 +4,15 @@ extends CharacterBody2D
 const SPEED = 100.0
 const JUMP_VELOCITY = -400.0
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
+var invincible = false
+
+func activate_ivencibility(duration):
+	print("INVENCIBILIDADE")
+	invincible = true
+	
+	await get_tree().create_timer(duration).timeout
+	invincible = false
+	
 
 
 func _physics_process(delta: float) -> void:
@@ -42,9 +51,8 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 func die():
-	# get_tree() — acessa o SceneTree, que é o gerenciador geral do jogo. 
-	# É por ele que você controla cenas, pausa o jogo, fecha o jogo, etc.
-	
-	# .reload_current_scene() — reinicia a cena atual do zero, como se 
-	# você tivesse fechado e reaberto ela.
+	if invincible:
+		return
+		
 	get_tree().reload_current_scene()
+	

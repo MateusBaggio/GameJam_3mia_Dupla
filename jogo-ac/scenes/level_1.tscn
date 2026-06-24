@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://cuytgt523a4ss" path="res://assets/craftpix-net-672461-free-swamp-game-tileset-pixel-art/2 Background/Layers/5.png" id="10_1s4pk"]
 [ext_resource type="PackedScene" uid="uid://80g8m3vhix8d" path="res://scenes/inimigo.tscn" id="11_2os1m"]
 [ext_resource type="PackedScene" uid="uid://b4pdfi2ov1u7m" path="res://scenes/objetomata.tscn" id="12_go7sj"]
+[ext_resource type="PackedScene" uid="uid://bpo6wnf6hpn3w" path="res://scenes/coin.tscn" id="13_7gny6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rus8k"]
 texture = ExtResource("2_bswci")
@@ -1228,6 +1229,9 @@ sources/3 = SubResource("TileSetAtlasSource_x2fux")
 sources/4 = SubResource("TileSetAtlasSource_s7g0b")
 
 [node name="Level1" type="Node2D" unique_id=1273015528]
+
+[node name="Coin" parent="." unique_id=618808491 instance=ExtResource("13_7gny6")]
+position = Vector2(498, 317)
 
 [node name="Tiles" type="Node2D" parent="." unique_id=1339354507]
 position = Vector2(329, 528)
