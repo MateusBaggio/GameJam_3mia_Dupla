@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b4pdfi2ov1u7m"]
 
-[ext_resource type="PackedScene" uid="uid://bji7mnstpla2s" path="res://scripts/killzone.tscn" id="1_0j8o1"]
+[ext_resource type="PackedScene" uid="uid://bji7mnstpla2s" path="res://scenes/killzone.tscn" id="1_0j8o1"]
 [ext_resource type="Texture2D" uid="uid://ctq2pa64pyaht" path="res://assets/craftpix-net-672461-free-swamp-game-tileset-pixel-art/3 Objects/Grass/2.png" id="2_3yw74"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rktng"]

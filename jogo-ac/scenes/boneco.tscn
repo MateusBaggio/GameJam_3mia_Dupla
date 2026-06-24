@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dxgi6ceabrniq"]
 
 [ext_resource type="Texture2D" uid="uid://bcvg1elfvj3wu" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_000.png" id="1_32jdm"]
-[ext_resource type="Script" uid="uid://b6e46ptmefwjs" path="res://scenes/boneco.gd" id="1_sga1d"]
+[ext_resource type="Script" uid="uid://b6e46ptmefwjs" path="res://scripts/boneco.gd" id="1_sga1d"]
 [ext_resource type="Texture2D" uid="uid://do4wpgmaq4xqe" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_000.png" id="2_lw68p"]
 [ext_resource type="Texture2D" uid="uid://0k87oxw0yqhi" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Idle/0_Forest_Ranger_Idle_001.png" id="3_51d3e"]
 [ext_resource type="Texture2D" uid="uid://bx6c6s3q20evd" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_1/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_001.png" id="3_gdsyt"]
@@ -107,7 +107,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("19_rocw2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 30.0
 }, {
@@ -130,7 +130,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("25_q4mhg")
 }],
-"loop": true,
+"loop": 1,
 "name": &"jump",
 "speed": 30.0
 }, {
@@ -207,7 +207,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("25_m4u76")
 }],
-"loop": true,
+"loop": 1,
 "name": &"walk",
 "speed": 30.0
 }]
@@ -233,3 +233,7 @@ shape = SubResource("CapsuleShape2D_51d3e")
 metadata/_edit_group_ = true
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=118472305]
+limit_left = 0
+limit_top = 0
+limit_right = 1946
+limit_bottom = 800

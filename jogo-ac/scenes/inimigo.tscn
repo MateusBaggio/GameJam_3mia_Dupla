@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://80g8m3vhix8d"]
 
 [ext_resource type="Texture2D" uid="uid://ccsk2nb64qxlw" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_3/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_000.png" id="1_7nk0x"]
-[ext_resource type="Script" uid="uid://ccxm368dvunt1" path="res://scenes/inimigo.gd" id="1_56jki"]
+[ext_resource type="Script" uid="uid://ccxm368dvunt1" path="res://scripts/inimigo.gd" id="1_56jki"]
 [ext_resource type="Texture2D" uid="uid://1x2nsegwpvdu" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_3/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_001.png" id="2_56jki"]
 [ext_resource type="Texture2D" uid="uid://drepnijqpi2et" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_3/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_002.png" id="3_8ob2g"]
 [ext_resource type="Texture2D" uid="uid://bewwj3aapv5vm" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_3/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_003.png" id="4_hafyv"]
@@ -25,7 +25,7 @@
 [ext_resource type="Texture2D" uid="uid://bdfxm8klig2uq" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_3/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_021.png" id="22_6pq60"]
 [ext_resource type="Texture2D" uid="uid://sqcrb31q101c" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_3/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_022.png" id="23_5d7ao"]
 [ext_resource type="Texture2D" uid="uid://dlccao8v43eak" path="res://assets/craftpix-net-619226-free-forest-ranger-chibi-character-sprites/Forest_Ranger_3/PNG/PNG Sequences/Walking/0_Forest_Ranger_Walking_023.png" id="24_kw2rs"]
-[ext_resource type="PackedScene" uid="uid://bji7mnstpla2s" path="res://scripts/killzone.tscn" id="26_8ob2g"]
+[ext_resource type="PackedScene" uid="uid://bji7mnstpla2s" path="res://scenes/killzone.tscn" id="26_8ob2g"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_kiucr"]
 animations = [{
