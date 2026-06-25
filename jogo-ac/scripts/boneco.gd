@@ -5,6 +5,11 @@ const SPEED = 100.0
 const JUMP_VELOCITY = -400.0
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 var invincible = false
+const LIMITE_QUEDA = 1970
+
+func _process(delta):
+	if global_position.x > LIMITE_QUEDA:
+		get_tree().change_scene_to_file("res://scenes/game_over.tscn")
 
 func activate_invencibility(duration):
 	print("INVENCIBILIDADE")

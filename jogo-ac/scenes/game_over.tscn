@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://yjyp63wbyhuc"]
+
+[ext_resource type="Script" uid="uid://w0vkf4m7ft6f" path="res://scripts/tentar_novamente_button.gd" id="1_xeevv"]
+
+[node name="game_over" type="Control" unique_id=1041486383]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TentarNovamenteButton" type="Button" parent="." unique_id=1879202083]
+layout_mode = 0
+offset_left = 403.0
+offset_top = 260.0
+offset_right = 736.0
+offset_bottom = 362.0
+text = "Jogar  Novamente"
+script = ExtResource("1_xeevv")
+
+[connection signal="pressed" from="TentarNovamenteButton" to="TentarNovamenteButton" method="_on_pressed"]
